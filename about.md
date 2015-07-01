@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The name is Keith and I enjoy all things pertaining to the world of web development and video games. Graduating from the University of Central Florida
+in 2014, I moved to Phoenix to break from my Florida roots and enjoy life out in Phoenix, Arizona. Now I'm on a mission to have
+a successful career in web development, make friends, and enjoy just about everything in life that comes my way.
