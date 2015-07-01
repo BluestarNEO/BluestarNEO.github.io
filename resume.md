@@ -10,7 +10,7 @@ permalink: /resume/
 Java | C | C++  
 
 ####WEB DEVELOPMENT  
-HTML | CSS | JavaScript | Node.js | WordPress
+HTML | CSS | JavaScript | jQuery | Node.js | WordPress
 
 ####DATABASES
 MySQL | Oracle Database | MongoDB
