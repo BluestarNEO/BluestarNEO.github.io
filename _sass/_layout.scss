@@ -211,8 +211,8 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    font-family: "Enter Sansman", Helvetica, Arial, sans-serif;
+    font-size: 35px;
     line-height: 1;
 
     @include media-query($on-laptop) {
