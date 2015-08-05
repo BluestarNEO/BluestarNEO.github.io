@@ -1,3 +1,12 @@
+/**************
+ Fonts
+***************/
+@font-face {
+    font-family: "Enter Sansman";
+    src: url(../fonts/entsans.ttf)
+}
+
+
 /**
  * Site header
  */
@@ -11,9 +20,9 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-family: "Enter Sansman";
+    font-size: 35px;
     line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
 
@@ -235,7 +244,16 @@
     }
 }
 
-p > img {
-    display: block;
-    margin: 0 auto;
+p {
+    > img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.post-gradient {
+    padding: 15px 0 1px 15px;
+    background-image: linear-gradient(to right, rgba(34, 63, 103, .5), rgba(96, 122, 157, 0) 75%);
+    border-width: 5px 0 5px 5px;
+    border-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(96,122,157,0) 75%) 10% stretch;
 }
