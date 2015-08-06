@@ -255,9 +255,36 @@ p {
     }
 }
 
+.profile-img {
+    > img {
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+        border-radius: 50%;
+        border: 25px solid #223f67;
+    }
+}
+
+.projects-img {
+    > img {
+        max-width: 350px;
+        display: block;
+        margin: 0 auto;
+        &:hover {
+            box-shadow: 0 0 20px -5px #000;
+        }
+    }
+
+}
+
 .post-gradient {
     padding: 15px 0 1px 15px;
     background-image: linear-gradient(to right, rgba(34, 63, 103, .5), rgba(96, 122, 157, 0) 75%);
     border-width: 5px 0 5px 5px;
     border-image: linear-gradient(to right, rgba(255,255,255,.5), rgba(96,122,157,0) 75%) 10% stretch;
+}
+
+.img-cap {
+    display: block;
+    text-align: center;
 }

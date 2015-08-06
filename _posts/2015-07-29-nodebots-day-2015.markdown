@@ -14,12 +14,12 @@ to become. Our kit included a [chipKIT Uno32 Development Board](http://www.micro
 an [Actobots Peewee Runt Rover](https://www.servocity.com/html/peewee_runt_rovertm__637158_.html#.VbiaaBNViko), a USB connector cable, a
 breadboard, batteries, and some small jumper cables. This was already well worth the price of entry.
 
-![NodeBot Kit](/../images/nb1.jpg)
+![NodeBot Kit](/../images/nodebots/nb1.jpg)
 
 All built, it becomes a little 2-wheel platform of destruction. Later, sticking 2 yellow LED lights into the attached breadboard, I would end
 up naming mine "El Tigre".
 
-![El Tigre](/../images/nb2.jpg)
+![El Tigre](/../images/nodebots/nb2.jpg)
 
 To put the icing on the already decadent cake, this was a Node event which means the code for controlling the bot is all written in JavaScript.
 Using the [Johnny-Five](http://johnny-five.io/) JavaScript Robotics programming framework and the "keypress" npm module, one can easily 
@@ -112,12 +112,12 @@ And there is a basic NodeBot with movement and speed controls!
 At the end of the day, everyone entered their little NodeBot into a battlebot-style tournament where the winner was the one that successfully
 pushed their opponent out of the designated ring. It was a great way to see our bots in action and the differences between them.
 
-*Final two contestants in the NodeBot tournament*
-![Final NodeBot Battle Contestants](/../images/nb3.jpg)
+<span class="img-cap">*Final two contestants in the NodeBot tournament*</span>
+![Final NodeBot Battle Contestants](/../images/nodebots/nb3.jpg)
 
     
-*End of the day Royal Rumble.*
-![Royal Rumble](/../images/nb4.jpg "test")
+<span class="img-cap">*End of the day Royal Rumble.*</span>
+![Royal Rumble](/../images/nodebots/nb4.jpg "test")
 
 This was a fantastic way to spend a Saturday by experimenting and learning something new. I'm looking forward to next year's NodeBot Day already, but 
 in the meantime I think I will continue to enhance my little NodeBot so he can take on any new contenders.

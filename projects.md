@@ -12,11 +12,19 @@ permalink: /projects/
 This Puppy Love site page was nothing more than a design image which then had to be re-created in HTML5 and CSS3 from the ground up.  
 <br />  
 
+<a href="{{ "/projects/puppy-love.html" | prepend: site.baseurl }}" class="projects-img">![Puppy Love Site](/../images/puppy-love.png)</a>  
+
+<br />  
+
 ####[*JavaScript | jQuery | Handlebars | Gulp Project*](https://github.com/BluestarNEO/twitter-project-v2)
 
 - - - 
 Built using a simple JSON database, the purpose of this project was to test the use of JavaScript and jQuery while using front end templating
-with Handlebars. Build and Watch tasks were used through Gulp in order to facilitate a fully working development environment.  
+with Handlebars to build a mock version of Twitter. Build and Watch tasks were used through Gulp in order to facilitate a fully working development environment.  
+<br />  
+  
+<a href="{{ "/projects/mock-twitter.html" | prepend: site.baseurl }}" class="projects-img">![Mock Twitter Project](/../images/twitter-proj/twitter-proj.png)</a>  
+
 <br />  
 
 ####[*HTML5 | CSS3 | JavaScript | jQuery | Backbone | Gulp | GitHub Group Project*](https://github.com/BluestarNEO/backbone-project)
@@ -28,6 +36,10 @@ able to perform CRUD (Create, Read, Update, and Delete) tasks on both the Users 
 of Backlogs, Scrums, and Sprints. Additionally, version control was maintained through GitHub by means of Feature Merges and Pull Requests.  
 <br />  
 
+<a href="{{ "/projects/mfer-toys.html" | prepend: site.baseurl }}" class="projects-img">![Backbone Home Page](/../images/backbone-proj/backbone-proj-home.png)</a>  
+  
+<br />  
+  
 ####[*JavaScript | Node.js NodeBot Project*](https://github.com/BluestarNEO/nodebot-2015)  
 
 Related Blog Post: [NodeBots Day 2015](http://localhost:4000/jekyll/update/2015/07/29/nodebots-day-2015.html)
