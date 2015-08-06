@@ -2,8 +2,12 @@
 layout: page
 ---
 
-#HTML5 | CSS3 | JavaScript | jQuery | Backbone | Gulp | GitHub Group Project
-  
+<span class="proj-title">HTML5 | CSS3 | JavaScript | jQuery | Backbone | Gulp | GitHub Group Project</span> 
+
+- - -  
+
+<br />    
+
 <span class="img-cap">*Millenium Falcon'er Toys Home Page*</span> 
 
 ![MF'er Toys Home Page](/../images/backbone-proj/backbone-proj-home.png)  
