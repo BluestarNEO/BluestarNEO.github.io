@@ -5,7 +5,7 @@ date:   2015-08-05
 categories: jekyll update
 ---
 Binary numbers are based on a base-2 numeral system, wherein the digits most typically used are 0 and 1. Generally,
-especially when it comes to power-related items, a 0 represents an 'off' position while a 1 represents a '1' position.
+especially when it comes to power-related items, a 0 represents an 'off' position while a 1 represents an 'on' position.
 When counting, the same can be said to be true for the positions that either the 0s or 1s hold, where only the positions
 containing 1 are really counted. In the next bit, I will break down how binary counting works in its most simplest form.
 
