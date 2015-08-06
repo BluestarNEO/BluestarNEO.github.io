@@ -42,7 +42,7 @@ of Backlogs, Scrums, and Sprints. Additionally, version control was maintained t
   
 ####[*JavaScript | Node.js NodeBot Project*](https://github.com/BluestarNEO/nodebot-2015)  
 
-Related Blog Post: [NodeBots Day 2015](http://localhost:4000/jekyll/update/2015/07/29/nodebots-day-2015.html)
+Related Blog Post: [NodeBots Day 2015](/jekyll/update/2015/07/29/nodebots-day-2015.html)
 
 - - -
 The purpose of NodeBots Day 2015 was to learn about the world of NodeBots and involved the assembling of a small robot kit and using Node.js to create some
