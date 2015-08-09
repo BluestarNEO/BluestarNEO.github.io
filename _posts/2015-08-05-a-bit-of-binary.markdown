@@ -38,13 +38,13 @@ Example 1:
     
     What is the number produced by 1101?
     Answer: 13
-    Solution: 1101 = 8 + 4 + 1 = 13
+    Solution: 1101 = 8 + 4 + 0 + 1 = 13
 
 Example 2:
 
     What is the binary represation of the number 7?
     Answer: 0111
-    Solution: 7 = 4 + 2 + 1 = 0111
+    Solution: 7 = 0 + 4 + 2 + 1 = 0111
 
 As stated earlier, the same principles can be applied to any base numeral system which can come in handy, especially with
 front end development and the hexadecimal system for CSS.
