@@ -4,25 +4,35 @@ title: Resume
 permalink: /resume/
 ---
 
-###**SKILL SUMMARY**
+###**SKILL SUMMARY**   
 
+- - -  
 
-####WEB DEVELOPMENT  
-HTML | CSS | Sass | JavaScript | jQuery | AJAX | JSON | Handlebars | Node.js | Backbone | WordPress | Bootstrap
+<br />  
 
-####PROGRAMMING LANGUAGES
+####_WEB DEVELOPMENT_  
+HTML | CSS | Sass | JavaScript | jQuery | AJAX | JSON | Handlebars | Node.js | Backbone | WordPress | Bootstrap  
+  
+####_PROGRAMMING LANGUAGES_
 Java  
 
-####DATABASES
+####_DATABASES_
 Oracle Database | MongoDB
 
-####PRODUCTION TOOLS
+####_PRODUCTION TOOLS_
 Terminal | Git | Apache Subversion | gulp.js | JIRA | Trello | Slack
 
-####SOFTWARE APPLICATIONS
+####_SOFTWARE APPLICATIONS_
 Sublime Text 3 | Eclipse | Notepad++
 
-###**EXPERIENCE**
+<br />
+
+###**EXPERIENCE**  
+
+- - - 
+
+<br />  
+
 **Web Development Student**, Rockit Bootcamp  
 *June 2015 - August 2015*  
 - Intense, full-time, 12-week bootcamp focused on the core skills of front end development.  
@@ -41,7 +51,14 @@ Sublime Text 3 | Eclipse | Notepad++
 -  Website wireframe concept work for proposed affiliate site.  
 -  Web Design consultant for main site at parentingaz.org using WordPress for frontend.  
 
+<br />  
+
 ###**EDUCATION**
+
+- - -  
+
+<br />
+
 **Web Development**, RockIT Bootcamp  
 *Graduated: 2015*  
 -  12 week full-time program focused on HTML, CSS, JavaScript, jQuery, Backbone, PHP, AJAX, and version control with Git.  
