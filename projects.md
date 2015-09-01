@@ -6,6 +6,18 @@ permalink: /projects/
 
 ###**GitHub Repository** - <i class="fa fa-github"></i> [BluestarNEO](https://github.com/bluestarneo)  
 
+####[*React | jQuery | Lodash | Sass | Gulp Project*](https://github.com/BluestarNEO/final-project)
+
+- - -
+A final project, built on the notion of allowing families in the Phoenix area to find local resources depending on their need. This was created
+while learning the basics of Facebook's JavaScript framework, React, and using jQuery for AJAX calls to the JSON database mock-backend.  
+
+<br />
+
+<a href="{{ "/projects/phoenix-family-resource.html" | prepend: site.basurel }}" class="projects-img">![Phoenix Family Resource Site](/../images/react-proj/pfr-home.png)</a>  
+
+<br />
+
 ####[*HTML5 | CSS3 Project*](https://github.com/BluestarNEO/html5-css3-project)
 
 - - - 
