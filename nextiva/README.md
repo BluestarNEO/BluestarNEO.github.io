@@ -18,7 +18,8 @@ viewport size and compression
 ###Notes
 - Lato was the provided font in the style.css file originally, so the website was created using that 
 as the selected font. However, the source URLs for the fonts would not work at my location, so I
-brought the Lato font in through a Google fonts link in the inex.html
+brought the Lato font in through a Google fonts link in the index.html. The original Lato links in
+style.css file have only been commented out for the time being.
 
 - Also CDN'd Normalize.css for baseline CSS templating on index.html
 
