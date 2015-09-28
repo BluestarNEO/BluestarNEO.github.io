@@ -224,6 +224,36 @@ a {
     min-height: 318px
   }
 
+  .offer-img.img-1, .offer-img.img-3 {
+    float: left;
+  }
+
+  .offer-img.img-2 {
+    float: right;
+  }
+
+  .offer-img.img-1, .offer-img.img-3 {
+    height: 215px;
+    width: 215px;
+  }
+
+  .offer-img.img-2 {
+    height: 300px;
+    width: 379px;
+  }
+
+  .img-1 {
+    background-image: url("../images/large/no-2nd-bill-lg.jpg")
+  }
+
+  .img-2 {
+    background-image: url("../images/large/select-polycom-phones-lg.png");
+  }
+
+  .img-3 {
+    background-image: url("../images/large/30-day-back-lg.jpg");
+  }
+
   .offer-odd img{
     float: left;
     height: 215px;
