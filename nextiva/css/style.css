@@ -5,32 +5,49 @@
 @font-face{font-family:'Lato';font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(http://www.nextiva.com/fonts/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');}*/
 
 
-html {
-    box-sizing: border-box;
-    color: #4B596E;
-    font: 12pt 'Lato', Arial;
-    font-weight: 300;
-}
+/****************************************
+  Default Styles
+  Colors: #4B596E (Dark Gray);
+*****************************************/
 
-*, *::before, *::after {
-    box-sizing: inherit;
-    color: inherit;
-    font: inherit;
+html {
+  box-sizing: border-box;
+  color: #8A919E;
+  font: 12pt "Lato", Arial;
+  font-weight: 300;
 }
 
 a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #8A919E;
+}
+
+p {
+  line-height: 18px;
+}
+
+/****************************************
+  Layout Styles
+  Mobile First Styles For Viewing Under 640px
+  Colors: #E5E5E5 (Light Gray), #F7F7F7 (Lighter Gray),
+          #004DA9 (Dark Blue), #FFF (White), #626C7F (Dark Gray)
+*****************************************/
+
+/*** Header Section ***/
+
 .logo-header {
   border-bottom: solid #E5E5E5 1px;
 }
 
 .main-logo {
-  width: 150px;
   margin: 0 0 10px 0;
-  transition: width 2s;
+  width: 150px;
 }
+
+/*** Headlining Content Section ***/
 
 .main-headline {
   margin: 0 25px 0 25px;
@@ -39,35 +56,43 @@ a {
 
 .main-headline h1 {
   color: #004DA9;
+  font-size: 24px;
   font-weight: 900;
   text-align: center;
-  font-size: 24px;
-
 }
 
 .main-subheadline, .content-contact {
   background-color: #004DA9;
   color: #FFF;
-  text-align: center;
   padding: 1px;
+  text-align: center;
 }
 
 .main-subheadline {
   font-weight: 700;
 }
 
+/*** Offers Section ****/
+
 .offers {
   text-align: center;
 }
 
-.offers h3, .content-contact h3 {
+.offers h3 {
+  color: #626C7F;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.content-contact h3 {
   margin-bottom: 0;
 }
 
 .offer-img {
+  background-size: 125px 125px;
   height: 125px;
+  margin: 10px auto;
   width: 125px;
-  margin: 0 auto;
 }
 
 .img-1 {
@@ -91,13 +116,15 @@ a {
 }
 
 .offer-odd, .offer-even {
-  padding: 15px 0 15px 0;
   min-height: 225px;
+  padding: 15px 0 15px 0;
 }
 
 .offer-even {
   background-color: #F7F7F7;
 }
+
+/*** Contact Info Section ***/
 
 .content-contact {
   min-height: 175px;
@@ -105,22 +132,25 @@ a {
 
 .content-contact h3 {
   margin-top: 70px;
+  font-weight: 100;
 }
 
 .content-contact p {
   margin-top: 0;
 }
 
+/*** Footer Section ***/
+
 .main-footer {
   text-align: center;
-  margin: 0 auto;
 }
 
-.footer-logo-sm {
-  height: 75px;
-  width: 150px;
+.footer-logo {
   background-image: url("../images/small/nextiva_logo_2015-sm.png");
+  background-size: 125px 63px;
+  height: 63px;
   margin: 0 auto;
+  width: 125px;
 }
 
 .main-footer h5 {
@@ -128,7 +158,14 @@ a {
   margin: 0 25px 10px 25px;
 }
 
+/****************************************
+  Media Query Layout Styles: 640px - 1023px
+*****************************************/
+
 @media (min-width: 640px) {
+
+  /* Header Section */
+
   .logo {
     margin: 0 auto;
     width: 700px;
@@ -136,8 +173,9 @@ a {
 
   .main-logo {
     width: 165px;
-    transition: width 2s;
   }
+
+  /* Headlining Contenct Section */
 
   .headline, .offer, .main-footer-panel {
     margin: 0 auto;
@@ -152,44 +190,50 @@ a {
     font-size: 22px;
   }
 
+  /* Offers Section */
+
   .offers h3, .content-contact h3 {
-  font-size: 18px;
+    font-size: 18px;
   }
 
   .offer-img {
-  height: 175px;
-  width: 175px;
-  margin: 0 auto;
-}
+    background-size: 175px 175px;
+    height: 175px;
+    margin: 0 auto;
+    width: 175px;
+  }
 
-.img-1 {
-  background-image: url("../images/medium/no-2nd-bill-md.jpg")
-}
+  .img-1 {
+    background-image: url("../images/medium/no-2nd-bill-md.jpg")
+  }
 
-.img-2 {
-  background-image: url("../images/medium/select-polycom-phones-md.png");
-}
+  .img-2 {
+    background-image: url("../images/medium/select-polycom-phones-md.png");
+  }
 
-.img-3 {
-  background-image: url("../images/medium/30-day-back-md.jpg");
-}
+  .img-3 {
+    background-image: url("../images/medium/30-day-back-md.jpg");
+  }
+
+  /* Contact Info Section */
 
   .content-contact p {
     font-size: 14px;
   }
 
-  .main-footer-panel {
-    text-align: left;
-    overflow: hidden;
-  }
+  /* Footer Section */
 
-  .main-footer-panel h5 {
-    float: right;
-    margin: 20px 0 0 0;
-  }
+
 }
 
+/****************************************
+  Media Query Layout Styles: >= 1024px
+*****************************************/
+
 @media (min-width: 1024px) {
+
+  /* Header Section */
+
   .logo {
     width: 1000px;
   }
@@ -198,7 +242,9 @@ a {
     width: 264px;
   }
 
-  .headline, .offer, .main-footer-panel {
+  /* Headlining Content Section */
+
+  .headline {
     width: 900px;
   }
 
@@ -210,40 +256,45 @@ a {
     font-size: 34px;
   }
 
+  /* Offers Section */
+
   .offers h3 {
-    padding-top: 30px;
     font-size: 24px;
+    padding-top: 30px;
   }
 
   .offers p {
-    margin-top: 20px;
     font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+
+  .offer, .main-footer-panel {
+    width: 850px;
   }
 
   .offer-odd, .offer-even {
-    min-height: 318px
+    min-height: 318px;
   }
 
   .offer-img.img-1, .offer-img.img-3 {
+    background-size: 240px 240px;
     float: left;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 240px;
   }
 
   .offer-img.img-2 {
+    background-size: 425px 330px;
     float: right;
-  }
-
-  .offer-img.img-1, .offer-img.img-3 {
-    height: 215px;
-    width: 215px;
-  }
-
-  .offer-img.img-2 {
-    height: 300px;
-    width: 379px;
+    height: 330px;
+    width: 425px;
   }
 
   .img-1 {
-    background-image: url("../images/large/no-2nd-bill-lg.jpg")
+    background-image: url("../images/large/no-2nd-bill-lg.jpg");
   }
 
   .img-2 {
@@ -254,59 +305,53 @@ a {
     background-image: url("../images/large/30-day-back-lg.jpg");
   }
 
-  .offer-odd img{
-    float: left;
-    height: 215px;
-    padding-left: 150px;
-    margin-top: 10px;    
-  }
-
   .offer-odd h3, .offer-odd p {
-    text-align: left;
     margin-left: 450px;
-  }
-
-  .offer-even img {
-    float: right;
-    height: 300px;
+    text-align: left;
   }
 
   .offer-even h3 {
-    margin-top: 0;
     margin-left: 65px;
+    margin-top: 0;
   }
 
   .offer-even p {
-    margin-left: 0;
     margin-left: 65px;
   }
 
   .offer-even h3, .offer-even p {
+    padding-right: 425px;
     text-align: left;
-    padding-right: 450px;
   }
+
+  /* Contact Info Section */
 
   .content-contact {
     min-height: 225px;
   }
 
   .content-contact h3 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 100;
   }
 
   .content-contact p {
     font-size: 23px;
     font-weight: 100;
+    padding-top: 5px;
   }
 
-  .main-footer img {
-    height: 75px;
-  }
+  /* Footer Section */
 
   .main-footer h5 {
-    padding-top: 30px;
     font-size: 11px;
+    font-weight: 300;
     margin: 0 25px 10px 25px;
+    padding-top: 30px;
+    text-align: right;
+  }
+
+  .footer-logo {
+    float: left;
   }
 }
