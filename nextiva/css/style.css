@@ -64,8 +64,22 @@ a {
   margin-bottom: 0;
 }
 
-.offers img {
+.offer-img {
   height: 125px;
+  width: 125px;
+  margin: 0 auto;
+}
+
+.img-1 {
+  background-image: url("../images/no-2nd-bill-sm.jpg")
+}
+
+.img-2 {
+  background-image: url("../images/select-polycom-phones-sm.png");
+}
+
+.img-3 {
+  background-image: url("../images/30-day-back-sm.jpg");
 }
 
 .offers p, .content-contact p {
@@ -99,10 +113,14 @@ a {
 
 .main-footer {
   text-align: center;
+  margin: 0 auto;
 }
 
-.main-footer img {
-  height: 50px;
+.footer-logo-sm {
+  height: 75px;
+  width: 150px;
+  background-image: url("../images/nextiva_logo_2015-sm.png");
+  margin: 0 auto;
 }
 
 .main-footer h5 {
