@@ -3,10 +3,10 @@
 Welcome! The Following are just a few notes on the decisions I made and how I built this project.
 
 ###Responsiveness  
-- Used 3 common break points for responsive sizing
-   1.) Under 640px
-   2.) Between 640px and 1024px
-   3.) Greater than 1024px
+- Used 3 common break points for responsive sizing  
+   1.) Under 640px    
+   2.) Between 640px and 1024px  
+   3.) Greater than 1024px  
 
 ###Optimized Images
 - Images have been further optimized for faster loading through use of direct sizing depending on
