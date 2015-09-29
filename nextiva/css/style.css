@@ -1,8 +1,7 @@
-/*@font-face{font-family:'Lato';font-style:normal;font-weight:100;src:local('Lato Hairline'),local('Lato-Hairline'),url(http://www.nextiva.com/fonts/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');}
-@font-face{font-family:'Lato';font-style:normal;font-weight:300;src:local('Lato Light'),local('Lato-Light'),url(http://www.nextiva.com/fonts/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');}
-@font-face{font-family:'Lato';font-style:normal;font-weight:400;src:local('Lato Regular'),local('Lato-Regular'),url(http://www.nextiva.com/fonts/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');}
-@font-face{font-family:'Lato';font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(http://www.nextiva.com/fonts/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');}
-@font-face{font-family:'Lato';font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(http://www.nextiva.com/fonts/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');}*/
+/****************************************
+  Font Styles
+  Colors: #4B596E (Dark Gray);
+*****************************************/
 
 @font-face{font-family:'Lato';font-style:normal;font-weight:100;src:local('Lato Hairline'),local('Lato-Hairline'),url(../fonts/Lato-Hairline.ttf) format('truetype');}
 @font-face{font-family:'Lato';font-style:normal;font-weight:300;src:local('Lato Light'),local('Lato-Light'),url(../fonts/Lato-Light.ttf) format('truetype');}
