@@ -2,6 +2,10 @@
   
 Welcome! The Following are just a few notes on the decisions I made and how I built this project.
 
+###Edits - 9/29  
+- Added minified CSS and brought in local font files for quicker load times
+- Eliminated unnecessary Normalize.CSS and added personal defaults to style.css  
+
 ###Responsiveness  
 - Used 3 common break points for responsive sizing  
    1.) Under 640px    
