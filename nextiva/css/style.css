@@ -4,6 +4,7 @@
 @font-face{font-family:'Lato';font-style:normal;font-weight:700;src:local('Lato Bold'),local('Lato-Bold'),url(http://www.nextiva.com/fonts/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');}
 @font-face{font-family:'Lato';font-style:normal;font-weight:900;src:local('Lato Black'),local('Lato-Black'),url(http://www.nextiva.com/fonts/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');}*/
 
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
 /****************************************
   Default Styles
